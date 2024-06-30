@@ -24,6 +24,10 @@ Este proyecto obtiene el evangelio del día desde [Evangeli.net](https://evangel
 3. Crea un archivo `.env` en el directorio raíz del proyecto con el siguiente contenido:
    ```env
    WHATSAPP_API_URL=http://whatsapi.buluu.es:6001/v1/messages
+   PHONE_NUMBERS=NUMEROS_DE_TELEFONO_EN_FORMATO_INTERNACIONAL_SEPARADOS_POR_COMA
+   ```
+   Ejemplo:
+   ```env
    PHONE_NUMBERS=34699490161,34650834261
    ```
 
@@ -47,7 +51,3 @@ Para obtener el evangelio del día y enviarlo a los números de WhatsApp configu
 3. Realiza tus cambios y haz commit de los mismos (`git commit -am 'Añadir nueva característica'`).
 4. Haz push a la rama (`git push origin feature/nueva-caracteristica`).
 5. Crea un nuevo Pull Request.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
